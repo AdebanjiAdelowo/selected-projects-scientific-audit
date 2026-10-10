@@ -51,3 +51,18 @@ Corrections are documented rather than hidden. Historical results that depend on
 The detailed per-project audit documents currently live with their corresponding project repositories. This repository is the portfolio-level index and application-facing discussion guide.
 
 Final per-project PDFs will be added only after outstanding verification and reruns are resolved, so that the documents do not freeze stale numerical conclusions.
+
+## New projects — 10 October 2026 (status supplement)
+
+The original **7 October 2026 PDF remains an unchanged historical snapshot**. The following projects are additional portfolio entries, not retroactive amendments to its scientific-audit findings. Their status must not be interpreted as equivalent to the audited projects in that PDF.
+
+| Project | Focus | Current evidence / qualification | Discussion status |
+| --- | --- | --- | --- |
+| [Research & Innovation Monitor](https://github.com/AdebanjiAdelowo/research-innovation-monitor) | Scientific literature retrieval, grounded generation, topic/trend analytics, agents | Reported: 115 offline tests; local comparisons on LitSearch, SciFact, SCIDOCS and DAPFAM; important negative results for small-model reranking/decomposition and RAG abstention. Larger GPU experiments are pending. Verify repository visibility/access and the benchmark-text Git-history audit before treating its linked results as published. | **DISCUSS WITH QUALIFICATION** — reported local results, independent audit pending. |
+| Micro-Doppler Multimodal Intelligence | Radar signal processing, time-frequency classification, sensor fusion | Parallel project under development; availability of paired multimodal data, independent splits and validated results not yet established here. | **AUDIT PENDING** |
+| Multimodal Visual RAG | Visual/document retrieval, OCR, image-language evidence grounding | Parallel project under development; benchmark selection, retrieval evaluation and grounded-generation results not yet established here. | **AUDIT PENDING** |
+| Legal Research RAG | Case-law retrieval, citation verification and grounded summarization | Parallel project under development; jurisdiction, dataset licensing, temporal evaluation and citation accuracy require verification. | **AUDIT PENDING** |
+| Electricity Demand Forecasting | Statistical/deep-learning forecasting, calibrated intervals, anomaly analysis | Parallel project under development; temporal backtests, leakage checks and forecast-vs-baseline comparisons remain to be verified. | **AUDIT PENDING** |
+| Bus Scheduling & Route Optimization | Public-transport demand modelling, mathematical optimization, robust scheduling | Parallel project under development; passenger-demand provenance, feasibility checks and held-out scenario evaluation remain to be verified. | **AUDIT PENDING** |
+
+**Source/status caution:** This supplement records the development status described in the working project discussions as of 10 October 2026, not a completed independent audit of the five parallel repositories. URLs are included only where a repository name is known; no claim is made that a link is publicly accessible. Before a PhD application, update each row from its actual tests, numerical results, limitations and public GitHub URL.
